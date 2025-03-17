@@ -1,0 +1,30 @@
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-nav .nav-link {
+    text-decoration: none; /* Remove underline */
+    color: #F0E9EE; /* Set link color */
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #25294D; /* Change to your desired hover text color */
+}
+
+.navbar-brand img {
+    padding: 5px; /* Add padding to the nav image */
+}
+
+.carousel-inner img {
+    width: 500px; /* Set a fixed width for the carousel images */
+    height: 500px; /* Set a fixed height for the carousel images */
+    object-fit: cover; /* Ensure the images cover the area without stretching */
+    margin: 0 auto; /* Center the images horizontally */
+}
